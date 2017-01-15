@@ -1,0 +1,25 @@
+{
+  "intents": [
+    {
+      "intent": "FindReplacement",
+      "slots": [
+        {
+          "name": "ingredient",
+          "type": "INGREDIENT"
+        }
+      ]
+    },
+    {
+      "intent": "ConvertMeasure"
+    },
+    {
+      "intent": "AMAZON.HelpIntent"
+    },
+    {
+      "intent": "AMAZON.StopIntent"
+    },
+    {
+      "intent": "AMAZON.CancelIntent"
+    }
+  ]
+}

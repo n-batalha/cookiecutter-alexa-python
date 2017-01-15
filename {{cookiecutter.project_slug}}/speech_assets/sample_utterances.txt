@@ -1,0 +1,6 @@
+FindReplacement What does replace {ingredient}
+FindReplacement what is the equivalent of {ingredient}
+FindReplacement how can I replace {ingredient}
+FindReplacement what can replace {ingredient}
+FindReplacement what {ingredient} be replaced with
+FindReplacement what replaces {ingredient}

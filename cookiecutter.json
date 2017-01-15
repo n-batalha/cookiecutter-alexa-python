@@ -1,0 +1,15 @@
+{
+  "project_name": "alexa-python-kubernetes",
+  "project_slug": "{{ cookiecutter.project_name.lower().replace(' ', '_') }}",
+  "project_short_description": "Alexa Skill to find ingredient replacements",
+  "app_name": "alexa-bot",
+  "machine_type": "g1-small",
+  "google_cloud_project": "",
+  "google_cloud_configuration": "default",
+  "google_cloud_zone": "europe-west1-b",
+  "google_cloud_cluster_name": "alexacluster",
+  "tls_key": "/tmp/key-alexa.pem",
+  "tls_certificate": "/tmp/server-alexa.crt",
+  "endpoint": "/cookingbot",
+  "application_id": ""
+}
