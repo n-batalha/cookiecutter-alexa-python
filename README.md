@@ -75,7 +75,7 @@ And then run
 python bot/bot/app.py
 ```
 
-### Local (with Docker)
+### Running locally (with Docker)
 
 ```
 make build
@@ -98,7 +98,6 @@ make build
 make create-cluster
 make deploy
 ```
-
 3. configure a domain to point the DNS record of type `A` and name `@` to the ip given to your cluster.
 You can retrieve it with `kubectl get ing gce-ingress` (give it a few minutes after running the deployment, 
 for the pods to become available).
@@ -125,7 +124,7 @@ For the test suite:
 make test
 ``` 
 
-To run tests manually, with the local setup above, you can start a local test server with:
+To run tests manually, with the local setup above, after you start a local test server with:
 
 ```
 python bot/bot/app.py
